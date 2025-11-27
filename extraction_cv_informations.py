@@ -20,7 +20,7 @@ def extract_text_from_pdf(pdf_path: str) -> str:
     return text_content
 
 
-def analyze_cv_text(cv_path: str, prompt_text: str) -> dict:
+def analyze_cv(cv_path: str) -> dict:
 
     cv_text = extract_text_from_pdf(cv_path)
     

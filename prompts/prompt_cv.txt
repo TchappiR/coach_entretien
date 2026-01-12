@@ -1,0 +1,10 @@
+Tu es un expert en recrutement. Analyse ce CV.
+Extrais les informations suivantes et retourne-les UNIQUEMENT au format JSON :
+{
+  "nom_candidat": "Nom trouvé",
+  "docmicile": "Nom trouvé",
+  "competences_cles": ["compétence 1", "compétence 2", ...],
+  "experiences_cles": ["experience 1", "experience 2", ...],
+  "annees_experience": "Nombre approximatif",
+  "points_forts": "Analyse rapide"
+}
